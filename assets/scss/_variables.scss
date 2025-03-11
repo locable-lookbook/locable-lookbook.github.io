@@ -1,0 +1,10 @@
+@use "sass:color";
+
+$color-primary: #4080aa;
+$color-secondary: #316d8b;
+$color-accent: #e27d60;
+$color-background: #f0f4f8;
+$color-text: #333333;
+
+$color-header-bg: $color-secondary;
+$color-footer-bg: color.adjust($color-secondary, $lightness: -10%);
