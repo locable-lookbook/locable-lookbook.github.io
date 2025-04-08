@@ -1,0 +1,62 @@
+// Copy code in steps
+
+.code-copy-wrapper {
+    position: relative;
+    display: inline-flex;
+}
+
+.copy-code-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px 6px 7px;
+    cursor: pointer;
+    color: #333;
+    line-height: 1;
+    opacity: 0.7;
+    transition: opacity 0.1s ease-in-out, background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+    &:hover,
+    &:focus {
+      opacity: 1;
+      background-color: rgba(180, 180, 180, 0.9);
+    }
+
+    svg {
+      display: block;
+      width: 1em;
+      height: 1em;
+      pointer-events: none;
+    }
+
+    &.copied {
+        background-color: rgba(92, 184, 92, 0.8); // #5cb85c with alpha
+        border-color: rgba(92, 184, 92, 0.9);   // #5cb85c with alpha
+        color: white;
+        opacity: 1;
+    }
+}
+
+
+// Copy code injection
+#copyInjectionBtn {
+    min-width: 225px;
+    width: 225px;
+    display: flex; 
+    align-items: center;
+    gap: 0.5em; 
+    transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, color 0.1s ease-in-out; /* Smooth transition */
+  }
+  #copyInjectionBtn .btn-icon svg {
+    display: block; 
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+  #copyInjectionBtn.copied-success {
+    background-color: #5cb85c; 
+    border-color: #4cae4c;
+    color: white;
+  }
