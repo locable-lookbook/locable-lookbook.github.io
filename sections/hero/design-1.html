@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <base href="../../">
-    <title>Hero - Design 1</title>
+    <title>Hero Design 1</title>
     <script src="../../assets/js/copy-code-button.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/images/locable-icon.png">
@@ -85,21 +85,62 @@
       
 <div class="design-item">
     <div class="design-item-header">
-        <h1>Hero - Design 1</h1>
+        <h1>Hero Design 1</h1>
         
         <div class="design-item-header-link">
-            <a href="https://olha-kazantseva-test-accoun.locable.com/lookbook-hero/" target="_blank" class="btn" title="Go to live preview page">Live Example</a>
+            <a href="https://olha-kazantseva-test-accoun.locable.com/lookbook-heros/" target="_blank" class="btn" title="Go to live preview page">Live Example</a>
         </div>
         
     </div>
 
     <div class="design-item-img">
-        <img src="./assets/images/hero/special-styles-hero-overlay-dark.jpg" alt="Hero - Design 1">
+        <img src="./assets/images/hero/special-styles-hero-overlay-dark.jpg" alt="Hero Design 1">
     </div>
-
 
     <div class="design-item-cols">
         <div class="design-item-col-1">
+            
+            <div class="design-item-steps">
+                <h2>Step-by-step implementation</h2>
+                <h3>Steps Overview</h3>
+<ol>
+  <li>Add a webpage block: <strong>Hero</strong></li>
+  <li>Custom Group Settings:  
+    <br/> → Set a Custom Class:
+    <pre><code>special-styles-hero</code></pre>
+    <br/> → Set Fixed Hero Height (in pixels): 
+    <strong>500</strong>
+  </li>
+  <li>Change Slide Layout and Settings → Set a Custom Class:
+    <pre><code>special-styles-hero-overlay-dark text-center</code></pre>
+  </li>
+  <li>Code: Advanced → Add to <strong>Page Head Injection</strong></li>
+</ol>
+
+<h3>Detailed Instructions</h3>
+<ol>
+  <li>Add a webpage block: <strong>Hero</strong></li>
+  
+  <li>Click the <strong>settings icon button</strong> on the left. In the <strong>"Set a Custom Class (Advanced)"</strong> modal window, add the following class:
+    <pre><code>special-styles-hero</code></pre>
+  </li>
+
+  <li>Click <strong>"Set Fixed Hero Height in Pixels"</strong> and enter <strong>500</strong> into the field</li>
+
+  <li>Go to <strong>Slide Layout and Settings</strong>, and in the <strong>"Set a Custom Class (Advanced)"</strong> field, enter:
+    <pre><code>special-styles-hero-overlay-dark text-center</code></pre>
+  </li>
+
+  <li>Add a background image</li>
+
+  <li>Edit the hero content: title, description</li>
+
+  <li>In the top-right corner of the page, click <strong>"Advanced"</strong> options</li>
+
+  <li>Copy the code snippet below and paste it into the <strong>"Page Head Injection"</strong> field, then click <strong>"Save Changes"</strong></li>
+</ol>
+
+            </div>
             
 
             <div class="design-item-code">
@@ -115,19 +156,7 @@
 
   <div class="code-injection-preview">
     <pre><code>
-    &lt;style&gt;.btn{transition:all .25s ease}.rounded-button .btn{border-radius:40px;padding:12px 30px 14px;line-height:1;display:inline-flex;align-items:center}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding-left:20px;padding-right:20px}.webpage-header .navbar-inverse{border-color:none}.slick-slider{display:flex!important;flex-wrap:nowrap!important}.slick-arrow{border:unset;background:unset;opacity:.3}.slick-arrow svg{width:20px}.slick-arrow .cls-1{color:#ccc!important}.slick-arrow.prev-arrow{transform:rotate(180deg) translate(60px,0)}.slick-arrow.next-arrow{transform:translate(60px,0)}@media all and (max-width:767px){.row.row-narrow.slick-initialized.slick-slider{width:100%!important;padding:0}.slick-list.draggable{margin-top:0!important}.slick-arrow{width:max-content!important}.slick-arrow.prev-arrow{transform:rotate(180deg) translate(0,0)}.slick-arrow.next-arrow{transform:unset}.slick-arrow svg{width:12px}}.special-styles-clippath-wrapper img{object-fit:cover}.special-styles-shape-triangle-1 img{--r:40px;aspect-ratio:1/.8660254038;-webkit-mask:conic-gradient(from -30deg at 50% calc(200% - 3 * var(--r)/ 2),#000 60deg,rgba(0,0,0,0) 0) 0 100%/100% calc(100% - 3 * var(--r)/ 2) no-repeat,radial-gradient(var(--r) at 50% calc(2 * var(--r)),#000 98%,rgba(0,0,0,0) 101%),radial-gradient(var(--r),#000 98%,rgba(0,0,0,0) 101%) space no-repeat 0 100%/calc(3.4641016151 * var(--r)) calc(2 * var(--r));clip-path:polygon(50% 0,100% 100%,0 100%);object-fit:cover}.special-styles-shape-triangle-2 img{--r:40px;aspect-ratio:1/.8660254038;-webkit-mask:conic-gradient(from 150deg at 50% calc(3 * var(--r)/ 2 - 100%),#000 60deg,rgba(0,0,0,0) 0) 0 0/100% calc(100% - 3 * var(--r)/ 2) no-repeat,radial-gradient(var(--r) at 50% calc(100% - 2 * var(--r)),#000 98%,rgba(0,0,0,0) 101%),radial-gradient(var(--r),#000 98%,rgba(0,0,0,0) 101%) space no-repeat 0 0/calc(3.4641016151 * var(--r)) calc(2 * var(--r));clip-path:polygon(50% 100%,100% 0,0 0);object-fit:cover}.special-styles-shape-polygon img{aspect-ratio:1;object-fit:cover;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}.special-styles-shape-octagon img{object-fit:cover;aspect-ratio:1;--o:calc(50%*tan(-22.5deg));clip-path:polygon(var(--o) 50%,50% var(--o),calc(100% - var(--o)) 50%,50% calc(100% - var(--o)))}.special-styles-shape-hexagon img{object-fit:cover;aspect-ratio:.8660254038;clip-path:polygon(-50% 50%,50% 100%,150% 50%,50% 0)}.special-styles-shape-hexagon-alt img{object-fit:cover;aspect-ratio:1/.8660254038;clip-path:polygon(50% -50%,100% 50%,50% 150%,0 50%)}.special-styles-shape-parallelogram img{--p:50px;aspect-ratio:3/2;clip-path:polygon(var(--p) 0,100% 0,calc(100% - var(--p)) 100%,0 100%);object-fit:cover}.special-styles-shape-rounded-edge-bottom img{aspect-ratio:3/2;clip-path:ellipse(85% 100% at 50% 0);object-fit:cover}.special-styles-shape-rounded-edge-right img{aspect-ratio:1;clip-path:ellipse(100% 85% at 0 50%);object-fit:cover}.special-styles-shape-rounded-edge-left img{aspect-ratio:1;clip-path:ellipse(100% 85% at 100% 50%);object-fit:cover}.special-styles-shape-abstract-1 img{clip-path:url(#blob1);-webkit-clip-path:url(#blob1)}.special-styles-shape-abstract-2 img{clip-path:url(#blob2);-webkit-clip-path:url(#blob2)}.special-styles-shape-abstract-3 img{clip-path:url(#blob3);-webkit-clip-path:url(#blob3)}.special-styles-shape-abstract-4 img{clip-path:url(#blob4);-webkit-clip-path:url(#blob4)}.special-styles-shape-abstract-5 img{clip-path:url(#blob5);-webkit-clip-path:url(#blob5)}.special-styles-shape-abstract-6 img{clip-path:url(#blob6);-webkit-clip-path:url(#blob6)}.special-styles-hero .jumbotron{display:flex;align-items:center}.special-styles-hero .jumbotron .container{max-width:90%}.special-styles-hero .webpage-block .jumbotron h1,.special-styles-hero .webpage-block .jumbotron h1 p{margin-bottom:30px;font-size:40px;font-weight:700}.special-styles-hero .webpage-block .jumbotron p{font-size:20px;font-weight:500}.special-styles-hero .page-heading{padding-left:0;padding-right:0}.special-styles-hero .special-styles-hero-overlay-dark{position:relative}.special-styles-hero .special-styles-hero-overlay-dark::before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.4);pointer-events:none;z-index:1}.special-styles-hero .special-styles-hero-overlay-dark .hero-content{z-index:2;color:#fff}.special-styles-hero .special-styles-hero-overlay-light{position:relative}.special-styles-hero .special-styles-hero-overlay-light::before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(255,255,255,.4);pointer-events:none;z-index:1}.special-styles-hero .special-styles-hero-overlay-light .hero-content{z-index:2;color:#121212}.special-styles-hero .hero-content.container&gt;.row{display:flex;align-items:center;flex-wrap:wrap}.special-styles-hero .carousel-control{background-image:none!important;color:#ccc;text-shadow:none}.special-styles-hero .carousel-indicators li{width:12px;height:12px;background-color:#ccc;border:1px solid #ccc;margin:4px}.special-styles-hero .carousel-indicators li.active{background-color:#777;border:1px solid #777;margin:4px}&lt;/style&gt;&lt;script&gt;$(document).ready(function(){$(&quot;body&quot;).append(`&lt;div class=&quot;special-styles-svg-shapes&quot;&gt;&lt;svg viewBox=&quot;0 0 398.6 435.4&quot; width=&quot;0&quot; height=&quot;0&quot;&gt;&lt;clipPath id=&quot;blob1&quot; clipPathUnits=&quot;objectBoundingBox&quot; transform=&quot;scale(0.002508, 0.002296)&quot;&gt;&lt;path class=&quot;st0&quot; d=&quot;M332.3,48.8c32.6,18.1,58.5,49.4,64.7,83.7c6.3,34.3-7.1,71.5-15.8,107.1c-8.6,35.7-12.6,69.7-26,108.4
-		c-13.5,38.6-36.5,81.9-68,86.9c-31.4,5-71.5-28.3-117.1-41.8c-45.7-13.6-97.1-7.5-123.9-28.3c-26.7-20.8-28.9-68.5-35-115.4
-		c-6.2-46.8-16.4-92.6-8-138c8.3-45.3,35.3-90,74.7-105s91.3-0.3,136.9,9.6C260.4,25.8,299.7,30.6,332.3,48.8z&quot;/&gt;&lt;/clipPath&gt;&lt;/svg&gt; &lt;svg viewBox=&quot;0 0 478.9 448.2&quot; width=&quot;0&quot; height=&quot;0&quot;&gt;&lt;clipPath id=&quot;blob2&quot; clipPathUnits=&quot;objectBoundingBox&quot; transform=&quot;scale(0.002088, 0.002231)&quot;&gt;&lt;path class=&quot;st0&quot; d=&quot;M360.5,34.5c23.8,31,24,83,46.5,126.5s67.3,78.5,71.6,113.7c4.2,35.2-32,70.6-66.1,105.1s-66.2,68-101.5,68.4
-		c-35.4,0.5-74.1-32.2-106.4-55.7c-32.4-23.5-58.4-37.9-99.1-55.8C64.8,318.8,9.3,297.5,1.1,266.9c-8.2-30.6,30.8-70.5,61.8-103.9
-		c30.9-33.4,53.9-60.3,82.4-89.1C173.8,45,207.8,14.4,248.6,4C289.3-6.4,336.7,3.5,360.5,34.5z&quot;/&gt;&lt;/clipPath&gt;&lt;/svg&gt; &lt;svg viewBox=&quot;0 0 390.3 414.4&quot; width=&quot;0&quot; height=&quot;0&quot;&gt;&lt;clipPath id=&quot;blob3&quot; clipPathUnits=&quot;objectBoundingBox&quot; transform=&quot;scale(0.002562, 0.002413)&quot;&gt;&lt;path class=&quot;st0&quot; d=&quot;M276.8,56.9c23.5,25.9,33.9,61.3,53.7,95.3c19.8,33.9,49,66.4,57.3,104.6c8.2,38.2-4.5,82.3-35.2,102.2
-	  c-30.6,20-79.2,15.8-121.3,23.7c-42.1,7.8-77.8,27.6-118.6,31.1c-40.9,3.5-86.9-9.3-99.3-41.4c-12.3-32.1,8.9-83.4,8.9-127.5
-	  c0-44.2-21.1-81.2-22.3-121.6C-1.1,82.9,17.9,39,51.2,17.6C84.6-3.9,132.3-2.9,174.5,5.8S253.3,30.9,276.8,56.9z&quot;/&gt;&lt;/clipPath&gt;&lt;/svg&gt; &lt;svg viewBox=&quot;0 0 430.8 463.2&quot; width=&quot;0&quot; height=&quot;0&quot;&gt;&lt;clipPath id=&quot;blob4&quot; clipPathUnits=&quot;objectBoundingBox&quot; transform=&quot;scale(0.002326, 0.002158)&quot;&gt;&lt;path class=&quot;st0&quot; d=&quot;M289.3,71.3c41.2,2.8,97.9,5.3,124,30.9c26,25.7,21.4,74.5-2.1,108.7c-23.4,34.3-65.8,53.9-91.8,92.2
-	  c-26,38.4-35.7,95.6-67.5,128s-85.7,40.1-130.8,24c-45-16.2-81.2-56.1-101.4-99C-0.6,313.2-5,267.4,5.7,229.8
-	  c10.8-37.6,36.7-67,45.6-111.5c8.9-44.4,0.8-104,22.2-115.9C94.9-9.5,145.7,26.3,184,45.7C222.3,65.2,248,68.5,289.3,71.3z&quot;/&gt;&lt;/clipPath&gt;&lt;/svg&gt; &lt;svg viewBox=&quot;0 0 391.8 413.1&quot; width=&quot;0&quot; height=&quot;0&quot;&gt;&lt;clipPath id=&quot;blob5&quot; clipPathUnits=&quot;objectBoundingBox&quot; transform=&quot;scale(0.002326, 0.002158)&quot;&gt;&lt;path class=&quot;st0&quot; d=&quot;M268.5,76.7c41.8-3.8,106.9-13.1,120.4,4.6s-24.7,62.5-34.4,109.4c-9.7,47,9,96.1,0,139.7
-	  c-9,43.5-45.7,81.6-86.3,82.7c-40.7,1.1-85.2-34.7-111.3-70.9c-26.1-36.1-33.8-72.6-68-95.4s-95-31.9-88.4-45.3
-	  c6.6-13.3,80.5-30.8,99.4-74.1C118.7,84.1,82.5,15,88.2,2.3c5.8-12.7,53.5,31,86.7,53.7S226.6,80.5,268.5,76.7z&quot;/&gt;&lt;/clipPath&gt;&lt;/svg&gt; &lt;svg viewBox=&quot;0 0 440.8 443.8&quot; width=&quot;0&quot; height=&quot;0&quot;&gt;&lt;clipPath id=&quot;blob6&quot; clipPathUnits=&quot;objectBoundingBox&quot; transform=&quot;scale(0.002268, 0.002253)&quot;&gt;&lt;path class=&quot;st0&quot; d=&quot;M376.6,20.7c37.3,20,65.3,58.5,64.2,98.1c-1.1,39.5-31.1,79.9-49.1,113.7c-18.1,33.7-24.1,60.7-33.3,102
-	  c-9.2,41.2-21.6,96.7-48.9,107.4c-27.3,10.6-69.5-23.6-100.7-52.3c-31.2-28.8-51.4-52-90.7-72.6c-39.3-20.5-97.8-38.3-113.4-69.5
-	  c-15.7-31.1,11.4-75.6,35.9-117.9C65.2,87.3,87.2,47.2,121,25.7C154.8,4.1,200.4,1.1,246.5,0.2C292.7-0.6,339.4,0.7,376.6,20.7z&quot;/&gt;&lt;/clipPath&gt;&lt;/svg&gt;&lt;/div&gt;`)})&lt;/script&gt;
+    &lt;style&gt;.btn{transition:all .25s ease}.rounded-button .btn{border-radius:40px;padding:12px 30px 14px;line-height:1;display:inline-flex;align-items:center}.special-styles-clippath-wrapper img{object-fit:cover}.special-styles-shape-triangle-1 img{--r:40px;aspect-ratio:1/.8660254038;-webkit-mask:conic-gradient(from -30deg at 50% calc(200% - 3 * var(--r)/ 2),#000 60deg,rgba(0,0,0,0) 0) 0 100%/100% calc(100% - 3 * var(--r)/ 2) no-repeat,radial-gradient(var(--r) at 50% calc(2 * var(--r)),#000 98%,rgba(0,0,0,0) 101%),radial-gradient(var(--r),#000 98%,rgba(0,0,0,0) 101%) space no-repeat 0 100%/calc(3.4641016151 * var(--r)) calc(2 * var(--r));clip-path:polygon(50% 0,100% 100%,0 100%);object-fit:cover}.special-styles-shape-triangle-2 img{--r:40px;aspect-ratio:1/.8660254038;-webkit-mask:conic-gradient(from 150deg at 50% calc(3 * var(--r)/ 2 - 100%),#000 60deg,rgba(0,0,0,0) 0) 0 0/100% calc(100% - 3 * var(--r)/ 2) no-repeat,radial-gradient(var(--r) at 50% calc(100% - 2 * var(--r)),#000 98%,rgba(0,0,0,0) 101%),radial-gradient(var(--r),#000 98%,rgba(0,0,0,0) 101%) space no-repeat 0 0/calc(3.4641016151 * var(--r)) calc(2 * var(--r));clip-path:polygon(50% 100%,100% 0,0 0);object-fit:cover}.special-styles-shape-polygon img{aspect-ratio:1;object-fit:cover;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}.special-styles-shape-octagon img{object-fit:cover;aspect-ratio:1;--o:calc(50%*tan(-22.5deg));clip-path:polygon(var(--o) 50%,50% var(--o),calc(100% - var(--o)) 50%,50% calc(100% - var(--o)))}.special-styles-shape-hexagon img{object-fit:cover;aspect-ratio:.8660254038;clip-path:polygon(-50% 50%,50% 100%,150% 50%,50% 0)}.special-styles-shape-hexagon-alt img{object-fit:cover;aspect-ratio:1/.8660254038;clip-path:polygon(50% -50%,100% 50%,50% 150%,0 50%)}.special-styles-shape-parallelogram img{--p:50px;aspect-ratio:3/2;clip-path:polygon(var(--p) 0,100% 0,calc(100% - var(--p)) 100%,0 100%);object-fit:cover}.special-styles-shape-rounded-edge-bottom img{aspect-ratio:3/2;clip-path:ellipse(85% 100% at 50% 0);object-fit:cover}.special-styles-shape-rounded-edge-right img{aspect-ratio:1;clip-path:ellipse(100% 85% at 0 50%);object-fit:cover}.special-styles-shape-rounded-edge-left img{aspect-ratio:1;clip-path:ellipse(100% 85% at 100% 50%);object-fit:cover}.special-styles-shape-abstract-1 img{clip-path:url(#blob1);-webkit-clip-path:url(#blob1)}.special-styles-shape-abstract-2 img{clip-path:url(#blob2);-webkit-clip-path:url(#blob2)}.special-styles-shape-abstract-3 img{clip-path:url(#blob3);-webkit-clip-path:url(#blob3)}.special-styles-shape-abstract-4 img{clip-path:url(#blob4);-webkit-clip-path:url(#blob4)}.special-styles-shape-abstract-5 img{clip-path:url(#blob5);-webkit-clip-path:url(#blob5)}.special-styles-shape-abstract-6 img{clip-path:url(#blob6);-webkit-clip-path:url(#blob6)}.special-styles-shape-abstract-1 img{clip-path:url(#blob1);-webkit-clip-path:url(#blob1)}.special-styles-shape-abstract-2 img{clip-path:url(#blob2);-webkit-clip-path:url(#blob2)}.special-styles-shape-abstract-3 img{clip-path:url(#blob3);-webkit-clip-path:url(#blob3)}.special-styles-shape-abstract-4 img{clip-path:url(#blob4);-webkit-clip-path:url(#blob4)}.special-styles-shape-abstract-5 img{clip-path:url(#blob5);-webkit-clip-path:url(#blob5)}.special-styles-shape-abstract-6 img{clip-path:url(#blob6);-webkit-clip-path:url(#blob6)}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding-left:20px;padding-right:20px}.webpage-header .navbar-inverse{border-color:none}.slick-slider{display:flex!important;flex-wrap:nowrap!important}.slick-arrow{border:unset;background:unset;opacity:.3}.slick-arrow svg{width:20px}.slick-arrow .cls-1{color:#ccc!important}.slick-arrow.prev-arrow{transform:rotate(180deg) translate(60px,0)}.slick-arrow.next-arrow{transform:translate(60px,0)}@media all and (max-width:767px){.row.row-narrow.slick-initialized.slick-slider{width:100%!important;padding:0}.slick-list.draggable{margin-top:0!important}.slick-arrow{width:max-content!important}.slick-arrow.prev-arrow{transform:rotate(180deg) translate(0,0)}.slick-arrow.next-arrow{transform:unset}.slick-arrow svg{width:12px}}.special-styles-hero .jumbotron{display:flex;align-items:center;overflow-y:hidden}.special-styles-hero .jumbotron .container{max-width:90%}.special-styles-hero .webpage-block .jumbotron h1,.special-styles-hero .webpage-block .jumbotron h1 p{margin-bottom:30px;font-size:40px;font-weight:700}.special-styles-hero .webpage-block .jumbotron p{font-size:20px;font-weight:500}.special-styles-hero .page-heading{padding-left:0;padding-right:0}.special-styles-hero .special-styles-hero-overlay-dark{position:relative}.special-styles-hero .special-styles-hero-overlay-dark::before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.4);pointer-events:none;z-index:1}.special-styles-hero .special-styles-hero-overlay-dark .hero-content{z-index:2;color:#fff}.special-styles-hero .special-styles-hero-overlay-light{position:relative}.special-styles-hero .special-styles-hero-overlay-light::before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(255,255,255,.4);pointer-events:none;z-index:1}.special-styles-hero .special-styles-hero-overlay-light .hero-content{z-index:2;color:#121212}.special-styles-hero .hero-content.container&gt;.row{display:flex;align-items:center;flex-wrap:wrap}.special-styles-hero .carousel-control{background-image:none!important;color:#ccc;text-shadow:none}.special-styles-hero .carousel-indicators li{width:12px;height:12px;background-color:#ccc;border:1px solid #ccc;margin:4px}.special-styles-hero .carousel-indicators li.active{background-color:#777;border:1px solid #777;margin:4px}&lt;/style&gt;
   </code></pre>
   </div>
 
@@ -212,7 +241,7 @@
             <div class="design-item-video">
                 <h2>Video Tutorial</h2>
                 <video width="600" controls>
-                    <source src="./assets/videos/hero/special-styles-hero-overlay-dark.mp4" type="video/mp4">
+                    <source src="./assets/videos/hero/special-styles-hero-1-2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>

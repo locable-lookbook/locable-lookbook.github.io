@@ -98,21 +98,19 @@ header .nav-bar .nav-links li a:hover {
 
 .copy-code-button {
   position: absolute;
-  top: 0;
-  right: 0;
-  padding: 6px 6px 7px;
+  top: 1px;
+  right: 1px;
+  padding: 5px 6px 6px;
   cursor: pointer;
   color: #333;
   line-height: 1;
-  opacity: 0.7;
-  transition: opacity 0.1s ease-in-out, background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
   border: none;
-  background: transparent;
+  background: #F8F9FA;
   border-radius: 5px;
 }
 .copy-code-button:hover, .copy-code-button:focus {
-  opacity: 1;
-  background-color: rgba(180, 180, 180, 0.9);
+  background-color: rgb(180, 180, 180);
 }
 .copy-code-button svg {
   display: block;
@@ -121,10 +119,9 @@ header .nav-bar .nav-links li a:hover {
   pointer-events: none;
 }
 .copy-code-button.copied {
-  background-color: rgba(92, 184, 92, 0.8);
-  border-color: rgba(92, 184, 92, 0.9);
+  background-color: rgb(92, 184, 92);
+  border-color: rgb(92, 184, 92);
   color: white;
-  opacity: 1;
 }
 
 #copyInjectionBtn {
@@ -166,6 +163,12 @@ pre {
   display: inline-flex;
   margin: 0;
   font-size: 15px;
+  white-space: nowrap;
+  overflow-x: auto;
+  font-family: monospace;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 a {
@@ -352,15 +355,9 @@ a.btn.btn-secondary:hover, a.btn.btn-secondary:focus,
   display: flex;
 }
 .code-injection-preview pre {
-  white-space: nowrap;
-  overflow-x: auto;
   padding: 10px;
-  font-family: monospace;
   font-size: 0.9em;
   display: initial;
-  max-width: 600px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .all-sections h2 {
@@ -378,10 +375,10 @@ a.btn.btn-secondary:hover, a.btn.btn-secondary:focus,
   margin-top: 70px;
 }
 
-ol li {
+ol li, ul li {
   margin-bottom: 12px;
 }
-ol li ol {
+ol li ol, ol li ul, ul li ol, ul li ul {
   margin-top: 12px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -36,6 +36,12 @@ pre {
 	display: inline-flex;
 	margin: 0;
 	font-size: 15px;
+	white-space: nowrap;
+	overflow-x: auto;
+	font-family: monospace;
+	max-width: 400px;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 a {
@@ -236,15 +242,11 @@ a.btn.btn-secondary,
 	display: flex;
 
 	pre {
-		white-space: nowrap;
-		overflow-x: auto;
+
 		padding: 10px;
-		font-family: monospace;
 		font-size: 0.9em;
 		display: initial;
-		max-width: 600px;
-		width: 100%;
-		box-sizing: border-box;
+
 	}
 }
 
@@ -268,11 +270,11 @@ a.btn.btn-secondary,
 
 }
 
-ol {
+ol, ul {
 	li {
 		margin-bottom: 12px;
 
-		ol {
+		ol, ul {
 			margin-top: 12px;
 		}
 	}

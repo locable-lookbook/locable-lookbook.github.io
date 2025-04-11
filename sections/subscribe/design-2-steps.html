@@ -1,0 +1,48 @@
+<h3>Steps Overview</h3>
+<ol>
+  <li>Add a webpage block: <strong>Embeds</strong> → <strong>Contact Form</strong></li>
+  <li>Custom Group Settings → Set a Custom Class:
+    <pre><code>special-styles-subscribe-form-2</code></pre>
+  </li>
+  <li>Code: Advanced → Add to <strong>Page Head Injection</strong></li>
+  <li>Add custom subscribe CSS</li>
+</ol>
+
+<h3>Detailed Instructions</h3>
+<ol>
+  <li>Add a webpage block: <strong>Embeds</strong> → <strong>Contact Form</strong></li>
+
+  <li>Create a new Contact Form:
+    <ol type="a">
+      <li>In the modal window that opens, click <strong>"Add New"</strong></li>
+      <li>A new window titled <strong>"Form Settings"</strong> will open</li>
+      <li>Fill in the <strong>Name</strong> and <strong>Header</strong> (this will be the text shown in the form)</li>
+      <li>In the <strong>Form Type</strong> dropdown, select <strong>Double Opt-In Newsletter Subscribe Form</strong></li>
+      <li>Keep only the <strong>Email</strong> field — remove the <strong>First Name</strong>, <strong>Last Name</strong>, and <strong>Message</strong> fields</li>
+      <li>Check the <strong>"Hide Locable Branding"</strong> option</li>
+      <li>In <strong>Advanced Styles</strong>, add the following custom CSS:
+        <pre><code>#honey{position:absolute}#embeded-widget{overflow:hidden}iframe{height:125px!important}form{display:flex;align-items:center}@media screen and (max-width:650px){form{flex-wrap:wrap;max-width:321px;margin:0 auto}}label{display:none}h2{margin:10px 0;font-weight:300;font-size:26px;color:#121212}.contact-form-container{margin:0 15px;position:relative;z-index:1;width:calc(100% - 30px)}@media screen and (max-width:650px){.contact-form-container{width:100%;margin:0}}.contact-form-container .contact-form-render .row{display:flex;flex-wrap:wrap;justify-content:space-between}@media (max-width:650px){.contact-form-container .contact-form-render .row{flex-direction:column;width:100%}}.contact-form-container .contact-form-render .form-group{display:inline-block;width:175px;margin:10px!important}@media (max-width:650px){.contact-form-container .contact-form-render .form-group{width:100%;margin-bottom:10px}}.contact-form-container .contact-form-render .form-group.contact-list{display:none}.contact-form-container .contact-form-render .col-md-12{width:100%}.contact-form-container .contact-form-render .contact-form-submission-button{width:auto;margin-top:20px}@media (max-width:650px){.contact-form-container .contact-form-render .contact-form-submission-button{width:100%}}.contact-form-container .contact-form-render .alert{width:100%;margin-bottom:10px}.contact-form-container .contact-form-render .g-recaptcha{display:inline-block}@media (max-width:650px){.contact-form-container .contact-form-render .g-recaptcha{width:100%;padding:0 10px 10px;display:flex;justify-content:center}}.contact-form-container .contact-form-render .p-a-1{display:flex;align-items:center;padding:16px 20px!important;justify-content:space-around}@media (max-width:768px){.contact-form-container .contact-form-render .p-a-1{flex-wrap:wrap;justify-content:center;text-align:center}}.contact-form-container .contact-form-render .p-a-1 h2{font-size:28px;line-height:1.4;font-weight:500}.form-control{height:76px!important;margin:-3px 0 0!important;border-radius:3px;border:1px solid #ccc}.btn-primary,a.btn-primary{background-color:#ff681a!important;text-transform:uppercase;color:#fff!important;border:none;height:76px!important;margin:-1px 10px 0!important;border-radius:2px}.btn-primary:hover,.btn-primary:focus,a.btn-primary:hover,a.btn-primary:focus{background-color:#e35108!important;border:none}.alert-danger{display:none!important}.form-control.error{border:1px red solid}.error-message{position:absolute}.row.empty-form-error{display:none!important}</code></pre>
+      </li>
+      <li>Click the <strong>"Create Form"</strong> button</li>
+      <li>Return to the page builder with the modal window still open</li>
+      <li>Click <strong>"Save"</strong> in the modal window</li>
+      <li>Click <strong>"Save Changes"</strong> on the page</li>
+      <li>Click the <strong>orange settings button</strong> on the right. In the modal window that opens, choose <strong>Contact Form</strong> from the dropdown list</li>
+      <li>Click <strong>"Save"</strong> in the modal window</li>
+      <li>Click <strong>"Save Changes"</strong> on the page</li>
+    </ol>
+  </li>
+
+  <li>Click the <strong>settings icon button</strong> on the left. In the <strong>"Set a Custom Class (Advanced)"</strong> modal window, add the following class:
+    <pre><code>special-styles-subscribe-form-2</code></pre>
+  </li>
+  <li>Add this background image: 
+    <img style="display: block; margin: 10px 0 0 0;" height="150" src="bg-subscribe-2.png">
+  </li>
+  <li>Click <strong>"Save"</strong> in the modal window</li>
+
+  <li>In the top-right corner of the page, click <strong>"Advanced"</strong> options</li>
+
+  <li>Copy the code snippet below and paste it into the <strong>"Page Head Injection"</strong> field, then click <strong>"Save Changes"</strong></li>
+
+</ol>

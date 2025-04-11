@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <base href="../../">
+    <title>Hero Design 2</title>
+    <script src="../../assets/js/copy-code-button.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/locable-icon.png">
+  </head>
+<body>
+  <div class="body-wrapper">
+  <header>
+	<nav class="nav-bar">
+		<div class="nav-brand">
+			<a href="/">
+				<img src="assets/images/logo-locable.png" alt="" style="height: 40px;">
+			</a>
+			<p>Lookbook</p>
+		</div>
+	</nav>
+</header>
+  <div class="content-wrapper">
+    
+
+<nav class="nav-sidebar">
+	<ul>
+        
+		<li class="nav-first ">
+            <a href="./index.html">Overview</a>
+        </li>
+         
+		<li class="nav-bordered ">
+            <a href="./all-sections.html">All Design Sections</a>
+        </li>
+        <li class="nav-title">Browse by Section</li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/blog-feed/index.html">Blog Feed</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/calendar-carousel/index.html">Calendar Carousel</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/card-columns/index.html">Card Columns</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/content-block/index.html">Content Block</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/cta/index.html">CTA</a>
+            </li>
+	    
+            
+            <li class="active" style="margin-left: 12px;">
+                <a href="./sections/hero/index.html">Hero</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/sponsors/index.html">Sponsors</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/subscribe/index.html">Subscribe</a>
+            </li>
+	    
+	</ul>
+	<footer>
+	<p style="font-size: 12px; margin: 0; text-align: center;">&copy; <script>document.write(new Date().getFullYear());</script> Locable Lookbook</p>
+  </footer>
+  
+</nav>
+    <div class="main-container">
+      
+<div class="design-item">
+    <div class="design-item-header">
+        <h1>Hero Design 2</h1>
+        
+        <div class="design-item-header-link">
+            <a href="https://olha-kazantseva-test-accoun.locable.com/lookbook-heros/" target="_blank" class="btn" title="Go to live preview page">Live Example</a>
+        </div>
+        
+    </div>
+
+    <div class="design-item-img">
+        <img src="./assets/images/hero/special-styles-hero-overlay-light.jpg" alt="Hero Design 2">
+    </div>
+
+    <div class="design-item-cols">
+        <div class="design-item-col-1">
+            
+            <div class="design-item-steps">
+                <h2>Step-by-step implementation</h2>
+                <h3>Steps Overview</h3>
+<ol>
+  <li>Add a webpage block: <strong>Hero</strong></li>
+  <li>Custom Group Settings:  
+    <br/> → Set a Custom Class:
+    <pre><code>special-styles-hero</code></pre>
+    <br/> → Set Fixed Hero Height (in pixels): 
+    <strong>500</strong>
+  </li>
+  <li>Change Slide Layout and Settings → Set a Custom Class:
+    <pre><code>special-styles-hero-overlay-light text-center</code></pre>
+  </li>
+  <li>Code: Advanced → Add to <strong>Page Head Injection</strong></li>
+</ol>
+
+<h3>Detailed Instructions</h3>
+<ol>
+  <li>Add a webpage block: <strong>Hero</strong></li>
+  
+  <li>Click the <strong>settings icon button</strong> on the left. In the <strong>"Set a Custom Class (Advanced)"</strong> modal window, add the following class:
+    <pre><code>special-styles-hero</code></pre>
+  </li>
+
+  <li>Click <strong>"Set Fixed Hero Height in Pixels"</strong> and enter <strong>500</strong> into the field</li>
+
+  <li>Go to <strong>Slide Layout and Settings</strong>, and in the <strong>"Set a Custom Class (Advanced)"</strong> field, enter:
+    <pre><code>special-styles-hero-overlay-light text-center</code></pre>
+  </li>
+
+  <li>Add a background image</li>
+
+  <li>Edit the hero content: title, description</li>
+
+  <li>In the top-right corner of the page, click <strong>"Advanced"</strong> options</li>
+
+  <li>Copy the code snippet below and paste it into the <strong>"Page Head Injection"</strong> field, then click <strong>"Save Changes"</strong></li>
+</ol>
+
+            </div>
+            
+
+            <div class="design-item-code">
+                <h3>Code Injection</h3>
+                
+  
+
+  <button class="btn" id="copyInjectionBtn" style="margin-bottom: 12px;">
+    <span class="btn-icon" id="copyBtnIcon"></span>
+    <span class="btn-text" id="copyBtnText">Copy Code Injection</span>
+  </button>
+  <span id="copyErrorMessage" style="margin-left: 10px; color: red;" aria-live="polite"></span>
+
+  <div class="code-injection-preview">
+    <pre><code>
+    &lt;style&gt;.btn{transition:all .25s ease}.rounded-button .btn{border-radius:40px;padding:12px 30px 14px;line-height:1;display:inline-flex;align-items:center}.special-styles-clippath-wrapper img{object-fit:cover}.special-styles-shape-triangle-1 img{--r:40px;aspect-ratio:1/.8660254038;-webkit-mask:conic-gradient(from -30deg at 50% calc(200% - 3 * var(--r)/ 2),#000 60deg,rgba(0,0,0,0) 0) 0 100%/100% calc(100% - 3 * var(--r)/ 2) no-repeat,radial-gradient(var(--r) at 50% calc(2 * var(--r)),#000 98%,rgba(0,0,0,0) 101%),radial-gradient(var(--r),#000 98%,rgba(0,0,0,0) 101%) space no-repeat 0 100%/calc(3.4641016151 * var(--r)) calc(2 * var(--r));clip-path:polygon(50% 0,100% 100%,0 100%);object-fit:cover}.special-styles-shape-triangle-2 img{--r:40px;aspect-ratio:1/.8660254038;-webkit-mask:conic-gradient(from 150deg at 50% calc(3 * var(--r)/ 2 - 100%),#000 60deg,rgba(0,0,0,0) 0) 0 0/100% calc(100% - 3 * var(--r)/ 2) no-repeat,radial-gradient(var(--r) at 50% calc(100% - 2 * var(--r)),#000 98%,rgba(0,0,0,0) 101%),radial-gradient(var(--r),#000 98%,rgba(0,0,0,0) 101%) space no-repeat 0 0/calc(3.4641016151 * var(--r)) calc(2 * var(--r));clip-path:polygon(50% 100%,100% 0,0 0);object-fit:cover}.special-styles-shape-polygon img{aspect-ratio:1;object-fit:cover;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}.special-styles-shape-octagon img{object-fit:cover;aspect-ratio:1;--o:calc(50%*tan(-22.5deg));clip-path:polygon(var(--o) 50%,50% var(--o),calc(100% - var(--o)) 50%,50% calc(100% - var(--o)))}.special-styles-shape-hexagon img{object-fit:cover;aspect-ratio:.8660254038;clip-path:polygon(-50% 50%,50% 100%,150% 50%,50% 0)}.special-styles-shape-hexagon-alt img{object-fit:cover;aspect-ratio:1/.8660254038;clip-path:polygon(50% -50%,100% 50%,50% 150%,0 50%)}.special-styles-shape-parallelogram img{--p:50px;aspect-ratio:3/2;clip-path:polygon(var(--p) 0,100% 0,calc(100% - var(--p)) 100%,0 100%);object-fit:cover}.special-styles-shape-rounded-edge-bottom img{aspect-ratio:3/2;clip-path:ellipse(85% 100% at 50% 0);object-fit:cover}.special-styles-shape-rounded-edge-right img{aspect-ratio:1;clip-path:ellipse(100% 85% at 0 50%);object-fit:cover}.special-styles-shape-rounded-edge-left img{aspect-ratio:1;clip-path:ellipse(100% 85% at 100% 50%);object-fit:cover}.special-styles-shape-abstract-1 img{clip-path:url(#blob1);-webkit-clip-path:url(#blob1)}.special-styles-shape-abstract-2 img{clip-path:url(#blob2);-webkit-clip-path:url(#blob2)}.special-styles-shape-abstract-3 img{clip-path:url(#blob3);-webkit-clip-path:url(#blob3)}.special-styles-shape-abstract-4 img{clip-path:url(#blob4);-webkit-clip-path:url(#blob4)}.special-styles-shape-abstract-5 img{clip-path:url(#blob5);-webkit-clip-path:url(#blob5)}.special-styles-shape-abstract-6 img{clip-path:url(#blob6);-webkit-clip-path:url(#blob6)}.special-styles-shape-abstract-1 img{clip-path:url(#blob1);-webkit-clip-path:url(#blob1)}.special-styles-shape-abstract-2 img{clip-path:url(#blob2);-webkit-clip-path:url(#blob2)}.special-styles-shape-abstract-3 img{clip-path:url(#blob3);-webkit-clip-path:url(#blob3)}.special-styles-shape-abstract-4 img{clip-path:url(#blob4);-webkit-clip-path:url(#blob4)}.special-styles-shape-abstract-5 img{clip-path:url(#blob5);-webkit-clip-path:url(#blob5)}.special-styles-shape-abstract-6 img{clip-path:url(#blob6);-webkit-clip-path:url(#blob6)}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding-left:20px;padding-right:20px}.webpage-header .navbar-inverse{border-color:none}.slick-slider{display:flex!important;flex-wrap:nowrap!important}.slick-arrow{border:unset;background:unset;opacity:.3}.slick-arrow svg{width:20px}.slick-arrow .cls-1{color:#ccc!important}.slick-arrow.prev-arrow{transform:rotate(180deg) translate(60px,0)}.slick-arrow.next-arrow{transform:translate(60px,0)}@media all and (max-width:767px){.row.row-narrow.slick-initialized.slick-slider{width:100%!important;padding:0}.slick-list.draggable{margin-top:0!important}.slick-arrow{width:max-content!important}.slick-arrow.prev-arrow{transform:rotate(180deg) translate(0,0)}.slick-arrow.next-arrow{transform:unset}.slick-arrow svg{width:12px}}.special-styles-hero .jumbotron{display:flex;align-items:center;overflow-y:hidden}.special-styles-hero .jumbotron .container{max-width:90%}.special-styles-hero .webpage-block .jumbotron h1,.special-styles-hero .webpage-block .jumbotron h1 p{margin-bottom:30px;font-size:40px;font-weight:700}.special-styles-hero .webpage-block .jumbotron p{font-size:20px;font-weight:500}.special-styles-hero .page-heading{padding-left:0;padding-right:0}.special-styles-hero .special-styles-hero-overlay-dark{position:relative}.special-styles-hero .special-styles-hero-overlay-dark::before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.4);pointer-events:none;z-index:1}.special-styles-hero .special-styles-hero-overlay-dark .hero-content{z-index:2;color:#fff}.special-styles-hero .special-styles-hero-overlay-light{position:relative}.special-styles-hero .special-styles-hero-overlay-light::before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(255,255,255,.4);pointer-events:none;z-index:1}.special-styles-hero .special-styles-hero-overlay-light .hero-content{z-index:2;color:#121212}.special-styles-hero .hero-content.container&gt;.row{display:flex;align-items:center;flex-wrap:wrap}.special-styles-hero .carousel-control{background-image:none!important;color:#ccc;text-shadow:none}.special-styles-hero .carousel-indicators li{width:12px;height:12px;background-color:#ccc;border:1px solid #ccc;margin:4px}.special-styles-hero .carousel-indicators li.active{background-color:#777;border:1px solid #777;margin:4px}&lt;/style&gt;
+  </code></pre>
+  </div>
+
+
+
+
+
+<script>
+  (function(){
+    const copyIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg>`;
+    const copiedIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg>`;
+
+    const btn = document.getElementById('copyInjectionBtn');
+    const iconElement = document.getElementById('copyBtnIcon');
+    const textElement = document.getElementById('copyBtnText'); // Get text span
+    const errorMsgEl = document.getElementById('copyErrorMessage'); // Get error message span
+    const codeElement = document.querySelector('.code-injection-preview pre code');
+    const originalButtonText = 'Copy Code Injection';
+    const copiedButtonText = 'Copied!';
+
+    if (iconElement && textElement) {
+      iconElement.innerHTML = copyIconSvg;
+      textElement.innerText = originalButtonText;
+    }
+
+    function displayError(message) {
+        console.error(message);
+        if (errorMsgEl) errorMsgEl.innerText = message;
+        setTimeout(() => { if (errorMsgEl) errorMsgEl.innerText = ''; }, 4000);
+    }
+
+    function copyInjectionCode() {
+      // Clear previous error messages
+      if (errorMsgEl) errorMsgEl.innerText = '';
+
+      if (!codeElement) {
+        displayError('Error: Code not found!');
+        return;
+      }
+      if (!navigator.clipboard) {
+        displayError('Error: Clipboard unavailable!');
+        return;
+      }
+
+      const code = codeElement.innerText;
+
+      navigator.clipboard.writeText(code).then(() => {
+        if (iconElement) iconElement.innerHTML = copiedIconSvg;
+        if (textElement) textElement.innerText = copiedButtonText; // Change button text
+        if (btn) btn.classList.add('copied-success');
+
+        setTimeout(() => {
+          if (iconElement) iconElement.innerHTML = copyIconSvg;
+          if (textElement) textElement.innerText = originalButtonText; // Revert button text
+          if (btn) btn.classList.remove('copied-success');
+        }, 3000);
+
+      }).catch(err => {
+        displayError('Failed to copy!');
+        console.error('Copy failed:', err);
+        // Ensure button is reset visually even on failure
+         if (iconElement) iconElement.innerHTML = copyIconSvg;
+         if (textElement) textElement.innerText = originalButtonText;
+         if (btn) btn.classList.remove('copied-success');
+      });
+    }
+
+    if(btn){
+      btn.addEventListener('click', copyInjectionCode);
+    } else {
+      console.error('Copy button element not found.');
+    }
+
+  })();
+</script>
+            </div>
+        </div>
+
+        <div class="design-item-col-2">
+
+            
+            <div class="design-item-video">
+                <h2>Video Tutorial</h2>
+                <video width="600" controls>
+                    <source src="./assets/videos/hero/special-styles-hero-1-2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+
+        </div>
+    </div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
