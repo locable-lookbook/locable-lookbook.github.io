@@ -3,9 +3,12 @@
 .nav-sidebar {
 	background-color: #F3F3F6;
 	padding: 1rem;
-	width: 250px;
+	width: 180px;
+	flex: 0 0 180px;
 	display: flex;
 	flex-direction: column;
+	overflow: auto;	
+	padding: 16px 16px 6px 16px;
 	ul {
 		list-style: none;
 		padding: 0;
@@ -35,12 +38,12 @@
                 }
             }
 			&.nav-first {
-				padding: 15px 0;
+				padding: 0 0 10px 0;
 			}
 			&.nav-bordered {
 				border-top: 1px  $color-border solid;
 				border-bottom: 1px $color-border  solid;
-				padding: 15px 0;
+				padding: 10px 0;
 			}
 			&.nav-title {
 				color: rgb(117, 117, 117);

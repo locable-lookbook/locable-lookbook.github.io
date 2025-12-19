@@ -45,9 +45,12 @@ header .nav-bar .nav-links li a:hover {
 .nav-sidebar {
   background-color: #F3F3F6;
   padding: 1rem;
-  width: 250px;
+  width: 180px;
+  flex: 0 0 180px;
   display: flex;
   flex-direction: column;
+  overflow: auto;
+  padding: 16px 16px 6px 16px;
 }
 .nav-sidebar ul {
   list-style: none;
@@ -76,12 +79,12 @@ header .nav-bar .nav-links li a:hover {
   color: #fff;
 }
 .nav-sidebar ul li.nav-first {
-  padding: 15px 0;
+  padding: 0 0 10px 0;
 }
 .nav-sidebar ul li.nav-bordered {
   border-top: 1px rgba(0, 0, 0, 0.12) solid;
   border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .nav-sidebar ul li.nav-title {
   color: rgb(117, 117, 117);
@@ -223,12 +226,6 @@ a.btn.btn-secondary:hover, a.btn.btn-secondary:focus,
   display: flex;
   height: calc(100vh - 60px);
   max-height: calc(100vh - 60px);
-}
-
-.nav-sidebar {
-  flex: 0 0 170px;
-  background-color: #F3F3F6;
-  padding: 16px 16px 6px 16px;
 }
 
 .body-wrapper {
