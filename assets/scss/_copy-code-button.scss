@@ -11,15 +11,15 @@
     right: 1px;
     padding: 5px 6px 6px;
     cursor: pointer;
-    color: #333;
+    color: #316d8b;
     line-height: 1;
     transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
     border: none;
-    background: #F8F9FA;
+    background: #f1f8ff;
     border-radius: 5px;
     &:hover,
     &:focus {
-      background-color: rgba(180, 180, 180, 1);
+      background-color: #d4d4d4;
     }
 
     svg {

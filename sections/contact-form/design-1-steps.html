@@ -1,0 +1,83 @@
+<h3>Steps Overview</h3>
+<ol>
+  <li>Add a webpage block: <strong>Embeds</strong> → <strong>Contact Form</strong></li>
+  <li>Custom Group Settings → Set a Custom Class to Embedded webpage block:
+    <pre><code>special-styles-contact-form-1</code></pre>
+  </li>
+  <li>Add custom CSS to embedded contact form</li>
+  <li>Add another block with the same special class. One of webpage block: <strong>Simple text</strong> or <strong>Content block</strong></li>
+  <li>Custom Group Settings → Set a Custom Class to second webpage block:
+    <pre><code>special-styles-contact-form-1</code></pre>
+  </li>
+  <li>Code: Advanced → Add to <strong>Page Head Injection</strong></li>
+</ol>
+
+<h3>Detailed Instructions</h3>
+<ol>
+  <li>Add a webpage block: <strong>Embeds</strong> → <strong>Contact Form</strong></li>
+  <li>Create a new Contact Form:
+    <ol type="a">
+      <li>In the modal window that opens, click <strong>"Add New"</strong></li>
+      <li>A new window titled <strong>"Form Settings"</strong> will open</li>
+      <li>Fill in the <strong>Name</strong> and <strong>Header</strong> (this will be the text shown in the form)</li>
+      <li>Add nesessary fields</li>
+      <li>Check the <strong>"Hide Locable Branding"</strong> option</li>
+      <li>In <strong>Advanced Styles</strong>, add the following custom CSS:
+        <pre><code>.contact-form-container{margin:30px 0;background-color:#F8FAFF;padding:20px;border-radius:15px;border:2px solid #2b2d4d;max-width:680px;width:100%}h2{font-size:36px;line-height:1.3;font-weight:600;width:100%;margin-top:0;margin-bottom:35px;color:#212529}.contact-form-container *{box-sizing:border-box}.form-group.form-field-header{display:flex!important;align-items:flex-start;margin-bottom:20px!important;width:100%}.form-group>label.control-label{padding:12px 15px 0 0!important;width:160px!important;min-width:160px!important;font-weight:600;font-size:14px;color:#333;display:flex;flex-direction:row-reverse;justify-content:flex-end}label span[style*="color: red"]{margin-left:4px;font-size:18px}.form-control,textarea.form-control,select.form-control{width:100%;max-width:450px;border:1px solid #d9d9d9;border-radius:12px!important;padding:12px 15px!important;font-size:15px;background-color:#fff;transition:border-color 0.2s,box-shadow 0.2s;height:auto}.form-control:focus{border-color:#2b2d4d!important;box-shadow:0 0 0 3px rgb(43 45 77 / .1);outline:none}textarea.form-control{min-height:120px;resize:vertical}select.form-control{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%232b2d4d' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:calc(100% - 15px) center;padding-right:40px!important}.form-group>div:not(.g-recaptcha){padding-top:10px;flex:1}input[type="checkbox"],input[type="radio"]{appearance:none;-webkit-appearance:none;width:20px;height:20px;border:2px solid #d9d9d9;border-radius:4px;background:#fff;vertical-align:middle;margin-right:10px;margin-bottom:8px;cursor:pointer;position:relative;display:inline-block}input[type="radio"]{border-radius:50%}input[type="checkbox"]:checked,input[type="radio"]:checked{background-color:#2b2d4d;border-color:#2b2d4d}input[type="checkbox"]:checked::after{content:'✔';position:absolute;color:#fff;font-size:14px;left:2px;top:-2px}input[type="radio"]:checked::after{content:'';position:absolute;width:8px;height:8px;background:#fff;border-radius:50%;left:4px;top:4px}input[type="file"]{padding:8px!important;border-radius:12px!important;border:1px solid #d9d9d9;background:#f8f9fa;cursor:pointer}input[type="file"]::file-selector-button{border:none;background:#2b2d4d;color:#fff;padding:5px 15px;border-radius:5px;margin-right:10px;cursor:pointer}.contact-form-submission-button{margin-left:160px!important;padding:12px 40px!important;height:auto!important;font-weight:600!important;letter-spacing:1px;border-radius:50px!important;background-color:#2b2d4d!important;border:none!important;cursor:pointer;transition:transform 0.2s,background-color 0.2s!important}.contact-form-submission-button:hover{background-color:#1a1c31!important;transform:translateY(-2px);box-shadow:0 5px 15px rgb(0 0 0 / .1)}.g-recaptcha{margin-left:160px!important;margin-top:15px;margin-bottom:20px}@media screen and (max-width:650px){.form-group.form-field-header{flex-direction:column!important}label.control-label{width:100%!important;padding-bottom:8px!important;justify-content:flex-start;flex-direction:row}.form-control,select.form-control,.g-recaptcha,.contact-form-submission-button{margin-left:0!important;width:100%!important;max-width:100%!important}}input[type="checkbox"]+label{margin-bottom:0!important}.alert-danger{border-radius:12px!important;background-color:#fff1f2!important;color:#e11d48!important;border:1px solid #ffe4e6!important;padding:15px!important;margin:10px 0}</code></pre>
+      </li>
+      <li>Click the <strong>"Create Form"</strong> button</li>
+      <li>Return to the page builder with the modal window still open</li>
+      <li>Click <strong>"Save"</strong> in the modal window</li>
+      <li>Click <strong>"Save Changes"</strong> on the page</li>
+      <li>Click the <strong>orange settings button</strong> on the right. In the modal window that opens, choose <strong>Contact Form</strong> from the dropdown list</li>
+      <li>Click <strong>"Save"</strong> in the modal window</li>
+      <li>Click <strong>"Save Changes"</strong> on the page</li>
+    </ol>
+  </li>
+
+  <li>Click the <strong>settings icon button</strong> on the left. In the <strong>"Set a Custom Class (Advanced)"</strong> modal window, add the following class:
+    <pre><code>special-styles-contact-form-1</code></pre>
+  </li>
+  <li>Click <strong>"Save"</strong> in the modal window</li>
+
+  <li><span style="text-decoration: underline; text-transform: uppercase; font-weight: bold;">Add another block with the same special class.</span><br>
+    This might be one of webpage blocks: <strong>Simple text</strong> or <strong>Content block</strong></li>
+  <li>Any image can be used, for example next one:
+    <img style="display: block; margin: 10px 0 0 0;" height="150" src="/sections/contact-form/contact-form-1-img.png">
+  </li>
+  <li>Any text or HTML can be used, for example next one with icons:
+ <pre><code>
+&lt;h3&gt;Get in touch&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class="fa fa-location-arrow p-r-1"&gt;&lt;/i&gt;
+  111 Main Street, New York, NY
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class="fa fa-phone p-r-1"&gt;&lt;/i&gt;
+  +1 (555) 123-4567
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class="fa fa-envelope p-r-1"&gt;&lt;/i&gt;
+  support@example.com
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class="fa fa-clock p-r-1"&gt;&lt;/i&gt;
+  Mon–Fri: 9:00 AM – 6:00 PM
+&lt;/p&gt;
+</code></pre>
+
+  </li>
+  <li>Click the <strong>settings icon button</strong> on the left. In the <strong>"Set a Custom Class (Advanced)"</strong> modal window, add the following class:
+    <pre><code>special-styles-contact-form-1</code></pre>
+  </li>
+  <li>Click <strong>"Save"</strong> in the modal window</li>
+
+  <li><span style="text-decoration: underline; text-transform: uppercase; font-weight: bold;">
+    Reorder the blocks if necessary.</span> The first block will be on the left, the second block will be on the right.  </li>
+
+
+  <li>In the top-right corner of the page, click <strong>"Advanced"</strong> options</li>
+  <li>Copy the code snippet below and paste it into the <strong>"Page Head Injection"</strong> field, then click <strong>"Save Changes"</strong></li>
+
+</ol>
