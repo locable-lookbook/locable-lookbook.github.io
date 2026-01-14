@@ -200,8 +200,9 @@ a.btn.btn-secondary,
 .design-item-col-2 {
 	width: 50%;
 	position: sticky;
-	top: 20px; 
+	top: 20px;
 	align-self: flex-start;
+
 	@media screen and (max-width: 768px) {
 		width: 100%;
 	}
@@ -227,9 +228,12 @@ a.btn.btn-secondary,
 }
 
 .design-item-img {
+	height: 400px;
+
 	img {
-		width: 100%;
-		height: auto;
+		width: auto;
+		max-height: 100%;
+		max-width: 100%;
 	}
 }
 
@@ -265,11 +269,13 @@ a.btn.btn-secondary,
 
 }
 
-ol, ul {
+ol,
+ul {
 	li {
 		margin-bottom: 12px;
 
-		ol, ul {
+		ol,
+		ul {
 			margin-top: 12px;
 		}
 	}

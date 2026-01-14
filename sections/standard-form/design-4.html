@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <base href="../../">
+    <title>Standard Form Design 4</title>
+    <script src="../../assets/js/copy-code-button.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/locable-icon.png">
+  </head>
+<body>
+  <div class="body-wrapper">
+  <header>
+	<nav class="nav-bar">
+		<div class="nav-brand">
+			<a href="/">
+				<img src="assets/images/logo-locable.png" alt="" style="height: 40px;">
+			</a>
+			<p>Lookbook</p>
+		</div>
+	</nav>
+</header>
+  <div class="content-wrapper">
+    
+
+<nav class="nav-sidebar">
+	<ul>
+        
+		<li class="nav-first ">
+            <a href="./index.html">Overview</a>
+        </li>
+         
+		<li class="nav-bordered ">
+            <a href="./all-sections.html">All Design Sections</a>
+        </li>
+        <li class="nav-title">Browse by Section</li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/blog-feed/index.html">Blog Feed</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/calendar-carousel/index.html">Calendar Carousel</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/card-columns/index.html">Card Columns</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/columns/index.html">Columns</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/content-block/index.html">Content Block</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/cta/index.html">CTA</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/hero/index.html">Hero</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/sponsors/index.html">Sponsors</a>
+            </li>
+	    
+            
+            <li class="active" style="margin-left: 12px;">
+                <a href="./sections/standard-form/index.html">Standard Form</a>
+            </li>
+	    
+            
+            <li class="" style="margin-left: 12px;">
+                <a href="./sections/subscribe/index.html">Subscribe</a>
+            </li>
+	    
+	</ul>
+	<footer>
+	<p style="font-size: 10px; margin: 0; text-align: center;">&copy; <script>document.write(new Date().getFullYear());</script> Locable Lookbook</p>
+  </footer>
+  
+</nav>
+    <div class="main-container">
+      
+<div class="design-item">
+    <div class="design-item-header">
+        <h1>Standard Form Design 4</h1>
+        
+        <div class="design-item-header-link">
+            <a href="https://lookbook.locable.com/lookbook-standard-forms/" target="_blank" class="btn" title="Go to live preview page">Live Example</a>
+        </div>
+        
+    </div>
+
+    <div class="design-item-img">
+        <img src="./assets/images/standard-form/special-styles-standard-form-4.png" alt="Standard Form Design 4">
+    </div>
+
+    <div class="design-item-cols">
+        <div class="design-item-col-1">
+            
+            <div class="design-item-steps">
+                <h2>Step-by-step implementation</h2>
+                
+<h3>Steps Overview</h3>
+<ol>
+  <li>Add a webpage block: <strong>Embeds</strong> → <strong>Contact Form</strong></li>
+  <li>Custom Group Settings → Set a Custom Class to Embedded webpage block:
+    <pre><code>special-styles-standard-form-4</code></pre>
+  </li>
+  <li>Add custom CSS to embedded Standard Form</li>
+  <li>Add another block with the same special class. One of webpage block: <strong>Simple text</strong> or <strong>Content block</strong></li>
+  <li>Custom Group Settings → Set a Custom Class to second webpage block:
+    <pre><code>special-styles-standard-form-4</code></pre>
+  </li>
+  <li>Code: Advanced → Add to <strong>Page Head Injection</strong></li>
+</ol>
+
+<h3>Detailed Instructions</h3>
+<ol>
+  <li>Add a webpage block: <strong>Embeds</strong> → <strong>Contact Form</strong></li>
+  <li>Create a new Standard Form:
+    <ol type="a">
+      <li>In the modal window that opens, click <strong>"Add New"</strong></li>
+      <li>A new window titled <strong>"Form Settings"</strong> will open</li>
+      <li>Fill in the <strong>Name</strong> and <strong>Header</strong> (this will be the text shown in the form)</li>
+      <li>Add nesessary fields</li>
+      <li>Check the <strong>"Hide Locable Branding"</strong> option</li>
+      <li>In <strong>Advanced Styles of the Form</strong>, add the following custom CSS:
+        <br/>
+        <pre><code>@media screen and (max-width:767px){#embeded-widget{padding:0!important}}.contact-form-container{margin:20px auto;border:1px solid #cbd5e1;background:#fff;padding:24px;max-width:680px;width:100%}h2{margin-top:0;font-size:32px;color:#1e40af;margin-bottom:36px;font-weight:600}.form-group.form-field-header{display:flex!important;flex-direction:column!important;align-items:flex-start!important;margin-bottom:20px!important;width:100%}.form-group>label.control-label{width:100%!important;padding:0!important;font-weight:600;font-size:13px;color:#64748b!important;text-transform:uppercase;letter-spacing:.06em;display:flex;flex-direction:row-reverse;justify-content:flex-end;margin-bottom:0!important}label span[style*="color: red"]{color:#dc2626!important;margin-left:4px;font-size:15px}.form-control,textarea.form-control,select.form-control{width:100%!important;max-width:100%!important;border:none!important;border-bottom:2px solid #cbd5e1!important;border-radius:0!important;padding:10px 4px!important;font-size:16px;color:#0f172a;transition:border-color 0.25s ease,box-shadow 0.25s ease;height:auto}.form-control:focus,textarea.form-control:focus,select.form-control:focus{border-bottom-color:#2563eb!important;box-shadow:0 2px 0 0 #2563eb!important;outline:none!important}select.form-control{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:calc(100% - 5px) center;background-size:18px;padding-right:28px!important}textarea.form-control{min-height:110px;resize:vertical}.form-group>div:not(.g-recaptcha){padding-top:6px;width:100%}input[type="checkbox"],input[type="radio"]{appearance:none;-webkit-appearance:none;width:20px;height:20px;border:2px solid #94a3b8;background:#fff;margin-right:10px;cursor:pointer;position:relative;display:inline-block;vertical-align:middle;transition:all 0.2s ease;margin-top:-2px;margin-bottom:2px;line-height:20px}input[type="radio"]{border-radius:50%}input[type="checkbox"]:checked,input[type="radio"]:checked{background-color:#2563eb;border-color:#2563eb}input[type="checkbox"]:checked::after{content:'';position:absolute;left:6px;top:2px;width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}input[type="radio"]:checked::after{content:'';position:absolute;left:5px;top:5px;width:6px;height:6px;background:#fff;border-radius:50%}input[type="file"]{background:#f8fafc!important;border:2px dashed #cbd5e1!important;padding:18px!important;width:100%!important;border-radius:10px}input[type="file"]::file-selector-button{background:#2563eb;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-weight:600;cursor:pointer;margin-right:12px}.g-recaptcha{margin:12px 0 22px 0!important}.contact-form-submission-button{width:100%!important;background:linear-gradient(135deg,#2563eb 0%,#1e40af 100%)!important;color:white!important;padding:16px!important;font-size:16px!important;font-weight:700!important;text-transform:uppercase;letter-spacing:.08em;border:none!important;cursor:pointer;transition:all 0.3s ease!important}.contact-form-submission-button:hover{transform:scale(1.05)}.alert-danger{border-radius:10px!important;background-color:#fef2f2!important;color:#b91c1c!important;border:1px solid #fecaca!important;padding:14px!important;margin:10px 0}@media screen and (max-width:650px){.contact-form-container{padding:20px;margin:10px;width:calc(100% - 20px)}h2{font-size:26px}}#honey{display:none!important}</code></pre>
+      </li>
+      <li>Click the <strong>"Create Form"</strong> button</li>
+      <li>Return to the page builder with the modal window still open</li>
+      <li>Click <strong>"Save"</strong> in the modal window</li>
+      <li>Click <strong>"Save Changes"</strong> on the page</li>
+      <li>Click the <strong>orange settings button</strong> on the right. In the modal window that opens, choose <strong>Contact Form</strong> from the dropdown list</li>
+      <li>Click <strong>"Save"</strong> in the modal window</li>
+      <li>Click <strong>"Save Changes"</strong> on the page</li>
+    </ol>
+  </li>
+
+  <li>Click the <strong>settings icon button</strong> on the left. In the <strong>"Set a Custom Class (Advanced)"</strong> modal window, add the following class:
+    <pre><code>special-styles-standard-form-4</code></pre>
+  </li>
+  <li>Click <strong>"Save"</strong> in the modal window</li>
+
+    <hr>
+  <li>
+    <h4>To create the next layout with a sidebar, add one more webpage block by following the instructions below.</h4>
+    <img style="display: block; margin: 0 0 10px; height: auto; width: 100%;"
+      src="/sections/standard-form/special-styles-standard-form-4-1.png">
+  </li>
+  <li><span style="text-decoration: underline; text-transform: uppercase; font-weight: bold;">Add another block with the same special class.</span><br>
+    This might be one of webpage blocks: <strong>Simple text</strong> or <strong>Content block</strong></li>
+  <li>Any image can be used</li>
+  <li>Any text or HTML can be used, for example next one with icons:
+ <pre><code>
+&lt;h3&gt;Get in touch&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class="fa fa-location-arrow p-r-1"&gt;&lt;/i&gt;
+  111 Main Street, New York, NY
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class="fa fa-phone p-r-1"&gt;&lt;/i&gt;
+  +1 (555) 123-4567
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class="fa fa-envelope p-r-1"&gt;&lt;/i&gt;
+  support@example.com
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class="fa fa-clock p-r-1"&gt;&lt;/i&gt;
+  Mon–Fri: 9:00 AM – 6:00 PM
+&lt;/p&gt;
+</code></pre>
+
+  </li>
+  <li>Click the <strong>settings icon button</strong> on the left. In the <strong>"Set a Custom Class (Advanced)"</strong> modal window, add the following class:
+    <pre><code>special-styles-standard-form-4</code></pre>
+  </li>
+  <li>Click <strong>"Save"</strong> in the modal window</li>
+
+  <li><span style="text-decoration: underline; text-transform: uppercase; font-weight: bold;">
+    Reorder the blocks if necessary.</span> The first block will be on the left, the second block will be on the right.  </li>
+
+
+    <hr>
+  <li>In the top-right corner of the page, click <strong>"Advanced"</strong> options</li>
+  <li>Copy the code snippet below and paste it into the <strong>"Page Head Injection"</strong> field, then click <strong>"Save Changes"</strong></li>
+
+</ol>
+
+            </div>
+            
+
+            <div class="design-item-code">
+                <h3>Code Injection</h3>
+                
+  
+
+  <button class="btn" id="copyInjectionBtn" style="margin-bottom: 12px;">
+    <span class="btn-icon" id="copyBtnIcon"></span>
+    <span class="btn-text" id="copyBtnText">Copy Code Injection</span>
+  </button>
+  <span id="copyErrorMessage" style="margin-left: 10px; color: red;" aria-live="polite"></span>
+
+  <div class="code-injection-preview">
+    <pre><code>
+    &lt;style&gt;/*special-styles-standard-form-4*/.special-styles-standard-form-4 .webpage-block .webpage-tagline{padding-top:15px;padding-bottom:15px;background-color:#2563eb;color:#fff}&lt;/style&gt;&lt;script&gt;$(document).ready(function(){function e(){$(&quot;.special-styles-standard-form-4&quot;).each(function(){var e,t,s,n,d,a,c,l=$(this);l.find(&#39;[id^=&quot;contact-form-widget&quot;]&#39;).length&amp;&amp;!l.hasClass(&quot;processed&quot;)&amp;&amp;(e=l.find(&quot;.row&quot;).first()).length&amp;&amp;(a=l.prev(&quot;.special-styles-standard-form-4&quot;),c=l.next(&quot;.special-styles-standard-form-4&quot;),t=null,s=!1,a.length&amp;&amp;!a.find(&#39;[id^=&quot;contact-form-widget&quot;]&#39;).length?(t=a,s=!0):c.length&amp;&amp;!c.find(&#39;[id^=&quot;contact-form-widget&quot;]&#39;).length&amp;&amp;(t=c,s=!1),t)&amp;&amp;(n=t.attr(&quot;style&quot;)||&quot;&quot;,(d=t.find(&quot;.col-xs-12&quot;).first()).length)&amp;&amp;(d.wrapInner(&#39;&lt;div class=&quot;content-style-preserver&quot; style=&quot;&#39;+n+&#39;&quot;&gt;&lt;/div&gt;&#39;),d.addClass(&quot;col-sm-4 content-column-merged&quot;),a=$(&#39;&lt;div class=&quot;col-xs-12 col-sm-7 widget-column&quot;&gt;&lt;/div&gt;&#39;),e.contents().appendTo(a),c=$(&#39;&lt;div class=&quot;col-xs-12 col-sm-1 spacer-column&quot;&gt;&lt;/div&gt;&#39;),e.empty(),s?e.append(d).append(c).append(a):e.append(a).append(c).append(d),l.addClass(&quot;processed&quot;),t.css(&quot;display&quot;,&quot;none&quot;))})}$(&#39;.special-styles-standard-form-4 [id^=&quot;contact-form-widget&quot;]&#39;).length&amp;&amp;e(),new MutationObserver(function(){$(&#39;.special-styles-standard-form-4 [id^=&quot;contact-form-widget&quot;]&#39;).length&amp;&amp;e()}).observe(document.body,{childList:!0,subtree:!0})})&lt;/script&gt;
+  </code></pre>
+  </div>
+
+
+
+
+
+<script>
+  (function(){
+    const copyIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg>`;
+    const copiedIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg>`;
+
+    const btn = document.getElementById('copyInjectionBtn');
+    const iconElement = document.getElementById('copyBtnIcon');
+    const textElement = document.getElementById('copyBtnText'); // Get text span
+    const errorMsgEl = document.getElementById('copyErrorMessage'); // Get error message span
+    const codeElement = document.querySelector('.code-injection-preview pre code');
+    const originalButtonText = 'Copy Code Injection';
+    const copiedButtonText = 'Copied!';
+
+    if (iconElement && textElement) {
+      iconElement.innerHTML = copyIconSvg;
+      textElement.innerText = originalButtonText;
+    }
+
+    function displayError(message) {
+        console.error(message);
+        if (errorMsgEl) errorMsgEl.innerText = message;
+        setTimeout(() => { if (errorMsgEl) errorMsgEl.innerText = ''; }, 4000);
+    }
+
+    function copyInjectionCode() {
+      // Clear previous error messages
+      if (errorMsgEl) errorMsgEl.innerText = '';
+
+      if (!codeElement) {
+        displayError('Error: Code not found!');
+        return;
+      }
+      if (!navigator.clipboard) {
+        displayError('Error: Clipboard unavailable!');
+        return;
+      }
+
+      const code = codeElement.innerText;
+
+      navigator.clipboard.writeText(code).then(() => {
+        if (iconElement) iconElement.innerHTML = copiedIconSvg;
+        if (textElement) textElement.innerText = copiedButtonText; // Change button text
+        if (btn) btn.classList.add('copied-success');
+
+        setTimeout(() => {
+          if (iconElement) iconElement.innerHTML = copyIconSvg;
+          if (textElement) textElement.innerText = originalButtonText; // Revert button text
+          if (btn) btn.classList.remove('copied-success');
+        }, 3000);
+
+      }).catch(err => {
+        displayError('Failed to copy!');
+        console.error('Copy failed:', err);
+        // Ensure button is reset visually even on failure
+         if (iconElement) iconElement.innerHTML = copyIconSvg;
+         if (textElement) textElement.innerText = originalButtonText;
+         if (btn) btn.classList.remove('copied-success');
+      });
+    }
+
+    if(btn){
+      btn.addEventListener('click', copyInjectionCode);
+    } else {
+      console.error('Copy button element not found.');
+    }
+
+  })();
+</script>
+            </div>
+        </div>
+
+        <div class="design-item-col-2">
+
+            
+            <div class="design-item-video">
+                <h2>Video Tutorial</h2>
+                <video width="600" controls>
+                    <source src="./assets/videos/standard-form/special-styles-standard-form.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+
+        </div>
+    </div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

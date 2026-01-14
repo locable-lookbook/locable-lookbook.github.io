@@ -343,9 +343,13 @@ a.btn.btn-secondary:hover, a.btn.btn-secondary:focus,
   padding-right: 30px;
 }
 
+.design-item-img {
+  height: 400px;
+}
 .design-item-img img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .code-injection-preview {
@@ -372,10 +376,14 @@ a.btn.btn-secondary:hover, a.btn.btn-secondary:focus,
   margin-top: 70px;
 }
 
-ol li, ul li {
+ol li,
+ul li {
   margin-bottom: 12px;
 }
-ol li ol, ol li ul, ul li ol, ul li ul {
+ol li ol,
+ol li ul,
+ul li ol,
+ul li ul {
   margin-top: 12px;
 }
 /*# sourceMappingURL=style.css.map */
